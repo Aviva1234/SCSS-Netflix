@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: navy;
+}
+
+.top {
+  background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+.top span {
+  display: inline;
+}
+
+.center {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15%;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: red;
+  border: 2px solid black;
+  float: right;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 75%;
+}/*# sourceMappingURL=myStyle.css.map */
