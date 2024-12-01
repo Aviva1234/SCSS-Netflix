@@ -1,10 +1,10 @@
 body {
   background-color: black;
-  color: navy;
+  color: lightsalmon;
 }
 
 .top {
-  background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+  background-image: linear-gradient(65deg, black, transparent), url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,10 +17,13 @@ body {
 .center {
   margin-top: 15%;
   margin-left: 10%;
-  margin-right: 10%;
   margin-bottom: 15%;
   display: inline-block;
   font-size: 1.5rem;
+}
+.center img {
+  height: 300px;
+  width: 400px;
 }
 
 .button {
@@ -30,4 +33,18 @@ body {
   padding: 4px;
   margin: 5px;
   border-radius: 75%;
+}
+
+table {
+  width: 50%;
+}
+
+td {
+  width: 100%;
+}
+
+hr {
+  height: 5px;
+  background-color: red;
+  width: 100%;
 }/*# sourceMappingURL=myStyle.css.map */
