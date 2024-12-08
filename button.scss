@@ -1,0 +1,8 @@
+@import './og';
+@mixin text-color($clr)
+{
+    color: $clr
+}
+.button{
+    @include text-color(purple)
+}
